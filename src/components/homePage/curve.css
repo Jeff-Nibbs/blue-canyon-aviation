@@ -1,0 +1,17 @@
+.curve {
+  border-radius: 50% 50% 0% 0% / 50% 50% 12% 12%;
+}
+.help {
+  transform: translate(-50%, -50%);
+}
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.diamond-path {
+  clip-path: polygon(50% 25%, 100% 50%, 50% 75%, 0% 50%);
+}
